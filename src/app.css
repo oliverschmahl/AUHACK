@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Fira Code";
+    src: local("Fira Code"), url("/fonts/Fira Code/FiraCode-Regular.ttf"),
+      url("/fonts/Fira Code/FiraCode-Regular.woff"),
+      url("/fonts/Fira Code/FiraCode-Regular.woff2");
+    font-weight: 400;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Fira Code";
+    src: local("Fira Code Bold"), url("/fonts/Fira Code/FiraCode-Bold.ttf"),
+      url("/fonts/Fira Code/FiraCode-Bold.woff"),
+      url("/fonts/Fira Code/FiraCode-Bold.woff2");
+    font-weight: 700;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Fira Code";
+    src: local("Fira Code Medium"), url("/fonts/Fira Code/FiraCode-Medium.ttf"),
+      url("/fonts/Fira Code/FiraCode-Medium.woff"),
+      url("/fonts/Fira Code/FiraCode-Medium.woff2");
+    font-weight: 500;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Fira Code";
+    src: local("Fira Code Light"), url("/fonts/Fira Code/FiraCode-Light.ttf"),
+      url("/fonts/Fira Code/FiraCode-Light.woff"),
+      url("/fonts/Fira Code/FiraCode-Light.woff2");
+    font-weight: 300;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Fira Code";
+    src: local("Fira Code SemiBold"),
+      url("/fonts/Fira Code/FiraCode-SemiBold.ttf"),
+      url("/fonts/Fira Code/FiraCode-SemiBold.woff"),
+      url("/fonts/Fira Code/FiraCode-SemiBold.woff2");
+    font-weight: 600;
+    font-display: swap;
+  }
+
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Bershire Swash", cursive;
+    color: lightgrey;
+  }
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Bershire Swash", cursive;
+    color: lightgrey;
+  }
+  h3 {
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+    color: lightgrey;
+  }
+
+  p {
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    color: lightgrey;
+  }
+
+  .content {
+    margin: 0;
+  }
+
+  .page_content {
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid lightgrey;
+  }
+}
